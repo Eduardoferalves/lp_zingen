@@ -15,7 +15,7 @@
 
 :root {
   --bg-color: #09090b;
-  --suface-color: #18181b;
+  --surface-color: #18181b;
   --stroke-color: #27272a;
   --text-color-primary: #f4f4f5;
   --text-color-secondary: #a1a1aa;
@@ -92,6 +92,11 @@ a:hover {
 ul[role="list"] {
   list-style: none;
 }
+
+ img {
+        max-width: 100%;
+        display: inline-block;
+    }
 
 @media (width >= 80em) {
   :root {
