@@ -38,7 +38,7 @@ footer {
     }
   }
 
-  @media (width >= 80em) {
+  @media (min-width: 80em) {
     .container {
       padding-inline: 0;
       padding-bottom: 2rem;
